@@ -107,6 +107,7 @@ namespace ISAccounting
             this.button2.TabIndex = 4;
             this.button2.Text = "Изменить";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -160,7 +161,7 @@ namespace ISAccounting
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.DataGridView dataGridView1;
 
         #endregion
     }

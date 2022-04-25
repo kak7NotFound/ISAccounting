@@ -50,5 +50,10 @@ namespace ISAccounting
             File.Delete(path + @"\" + dataGridView1.CurrentRow.Cells[1].Value.ToString());
             refreshDatagrid();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+         new ChangeFieldForm(this).Show();   
+        }
     }
 }

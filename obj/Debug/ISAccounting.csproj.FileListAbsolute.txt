@@ -132,3 +132,4 @@ C:\Users\kaks\Documents\GitHub\ISAccounting\obj\Debug\ISAccounting.DocsForm.reso
 C:\Users\kaks\Documents\GitHub\ISAccounting\obj\Debug\ISAccounting.SalaryForm.resources
 C:\Users\kaks\Documents\GitHub\ISAccounting\obj\Debug\ISAccounting.WorkersForm.resources
 C:\Users\kaks\Documents\GitHub\ISAccounting\obj\Debug\ISAccounting.CreateFileForm.resources
+C:\Users\kaks\Documents\GitHub\ISAccounting\obj\Debug\ISAccounting.ChangeFieldForm.resources
