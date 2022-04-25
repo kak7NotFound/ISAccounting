@@ -16,6 +16,10 @@ namespace ISAccounting
             getDocs();
         }
 
+        public void refreshDatagrid()
+        {
+            
+        }
         private void getDocs()
         {
             FileInfo[] Files = path.GetFiles("*.*"); //Getting Text files
