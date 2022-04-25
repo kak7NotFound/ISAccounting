@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
-using System.IO;
 using System.Windows.Forms;
 
 namespace ISAccounting
@@ -10,6 +8,7 @@ namespace ISAccounting
         public Form1()
         {
             InitializeComponent();
+            Program.database = new DataBase();
             // todo System.Diagnostics.Process.Start(@"C:\Users\kaks\Desktop\a.docx");
         }
 
@@ -17,7 +16,7 @@ namespace ISAccounting
         {
             if (DocsForm.open) return;
             DocsForm.open = true;
-            new DocsForm().Show(); 
+            new DocsForm().Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -51,6 +51,7 @@ namespace ISAccounting
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(203, 21);
             this.comboBox1.TabIndex = 0;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -71,10 +72,12 @@ namespace ISAccounting
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {"01.2022", "02.2022", "03.2022", "04.2022", "05.2022", "06.2022", "07.2022", "08.2022", "09.2022", "10.2022", "11.2022", "12.2022"});
             this.comboBox2.Location = new System.Drawing.Point(12, 96);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(203, 21);
             this.comboBox2.TabIndex = 3;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label3
             // 

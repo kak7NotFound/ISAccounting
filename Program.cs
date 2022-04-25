@@ -18,7 +18,7 @@ namespace ISAccounting
 
         private const int ATTACH_PARENT_PROCESS = -1;
 
-        // static public DataBase database = new DataBase();
+        static public DataBase database;
 
         [STAThread]
         static void Main(string[] args)
