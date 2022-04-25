@@ -9,7 +9,6 @@ namespace ISAccounting
         {
             InitializeComponent();
             Program.database = new DataBase();
-            // todo System.Diagnostics.Process.Start(@"C:\Users\kaks\Desktop\a.docx");
         }
 
         private void button1_Click(object sender, EventArgs e)

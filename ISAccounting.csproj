@@ -140,6 +140,12 @@
     <Compile Include="ClientsForm.Designer.cs">
       <DependentUpon>ClientsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreateFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateFileForm.Designer.cs">
+      <DependentUpon>CreateFileForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataBase.cs" />
     <Compile Include="DocsForm.cs">
       <SubType>Form</SubType>
@@ -169,6 +175,9 @@
     </Compile>
     <EmbeddedResource Include="ClientsForm.resx">
       <DependentUpon>ClientsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateFileForm.resx">
+      <DependentUpon>CreateFileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocsForm.resx">
       <DependentUpon>DocsForm.cs</DependentUpon>

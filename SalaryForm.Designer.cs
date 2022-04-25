@@ -109,6 +109,7 @@ namespace ISAccounting
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(116, 20);
             this.textBox2.TabIndex = 7;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
             // 
             // button1
             // 
@@ -127,6 +128,7 @@ namespace ISAccounting
             this.button2.TabIndex = 9;
             this.button2.Text = "Назначить премию";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button3
             // 
@@ -136,6 +138,7 @@ namespace ISAccounting
             this.button3.TabIndex = 10;
             this.button3.Text = "Назначить зарплату";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // SalaryForm
             // 
