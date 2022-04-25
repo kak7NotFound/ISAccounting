@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
@@ -17,7 +18,7 @@ namespace ISAccounting
 
         private const int ATTACH_PARENT_PROCESS = -1;
 
-        static public DataBase database = new DataBase();
+        // static public DataBase database = new DataBase();
 
         [STAThread]
         static void Main(string[] args)
@@ -26,7 +27,6 @@ namespace ISAccounting
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            
 
         }
     }

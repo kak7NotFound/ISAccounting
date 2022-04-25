@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ISAccounting
@@ -15,6 +10,35 @@ namespace ISAccounting
         public Form1()
         {
             InitializeComponent();
+            // todo System.Diagnostics.Process.Start(@"C:\Users\kaks\Desktop\a.docx");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (DocsForm.open) return;
+            DocsForm.open = true;
+            new DocsForm().Show(); 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (SalaryForm.open) return;
+            SalaryForm.open = true;
+            new SalaryForm().Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (WorkersForm.open) return;
+            WorkersForm.open = true;
+            new WorkersForm().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (ClientsForm.open) return;
+            ClientsForm.open = true;
+            new ClientsForm().Show();
         }
     }
 }

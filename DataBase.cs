@@ -8,11 +8,9 @@ namespace ISAccounting
     public class DataBase : DbContext
     {
         public static string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        private SqliteConnection connection = new SqliteConnection(@"Data Source=" + DataBase.strExeFilePath.Substring(0, strExeFilePath.Length-10) + @"\post.sqlite");
+        // private SqliteConnection connection = new SqliteConnection(@"Data Source=" + DataBase.strExeFilePath.Substring(0, strExeFilePath.Length-10) + @"\accounting.sqlite");
         
-        // если не заводится бд, то вставить путь строчкой ниже, и убрать верхнюю строчку вообще
-        // private SqliteConnection connection = new SqliteConnection(@"Data Source=C:\какая-тоЕщеПапка\post.sqlite");
-
+        private SqliteConnection connection = new SqliteConnection(@"C:\Users\kaks\Documents\GitHub\ISAccounting\accounting.sqlite");
         
         public DataBase()
         {
