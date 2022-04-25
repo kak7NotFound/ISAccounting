@@ -5,10 +5,9 @@ namespace ISAccounting
 {
     public class DataBase : DbContext
     {
-        // public static string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        // private SqliteConnection connection = new SqliteConnection(@"Data Source=" + DataBase.strExeFilePath.Substring(0, strExeFilePath.Length-10) + @"\accounting.sqlite");
-        private SqliteConnection connection =
-            new SqliteConnection("Data Source=C:\\Users\\kaks\\Documents\\GitHub\\ISAccounting\\accounting.sqlite");
+        public static string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+        private SqliteConnection connection = new SqliteConnection(@"Data Source=" + DataBase.strExeFilePath.Substring(0, strExeFilePath.Length-10) + @"\accounting.sqlite");
+        // private SqliteConnection connection = new SqliteConnection("Data Source=C:\\Users\\kaks\\Documents\\GitHub\\ISAccounting\\accounting.sqlite");
 
         public DataBase()
         {
